@@ -1,15 +1,15 @@
 # Ext JS 4 Form - Exemplo com campos CPF e CNPJ
 
-Exemplo que possui campos CPF e CNPJ que já faz validação se o número do CPF/CNPJ é válido.
+Exemplo que possui campos CPF e CNPJ que jÃ¡ faz validaÃ§Ã£o se o nÃºmero do CPF/CNPJ Ã© vÃ¡lido.
 
-## Plugins - Fórum ExtJS BR
+## Plugins - Fooum ExtJS BR
 
 * CPF: http://www.extjs.com.br/forum/index.php?topic=5125.0 
 * CNPJ: http://www.extjs.com.br/forum/index.php?topic=5124.0
 
 ## Post - Blog - Step by Step
 
-* Em breve
+* http://www.loiane.com/2011/08/extjs-4-form-exemplo-campos-cpf-e-cnpj/
 
 ## Para Testar
 
@@ -20,4 +20,4 @@ Exemplo que possui campos CPF e CNPJ que já faz validação se o número do CPF/CNP
 
 * Loiane Groner
 * http://loianegroner.com (English)
-* http://loiane.com (Português)
+* http://loiane.com (Portuguï¿½s)
