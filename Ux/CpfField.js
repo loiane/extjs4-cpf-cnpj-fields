@@ -17,7 +17,7 @@ Ext.define('Ux.CpfField', {
          cpf: function(b, a) {
             return me.validacpf(b);
          },
-         cpfText: "CPF inválido!"
+         cpfText: "CPF invï¿½lido!"
       });
 
       Ext.apply(me, { vtype: 'cpf' });
@@ -83,11 +83,15 @@ Ext.define('Ux.CpfField', {
       var d = (me.isInRange(j, me.KEY_RANGES.numeric) ? String.fromCharCode(j) : "");
       var e = me.inputEl.dom;
       var h = (e.value.replace(/\D/g, "").substr(1) + d).replace(/\D/g, "");
+      var u = (e.value.replace(/\D/g, "").substr(0) + d).replace(/\D/g, "");
       var a = h.length;
+      var w = u.length;
+      
       if (d == "" && a > 0 && j == 8) {
-         a--;
-         h = h.substr(0, a);
-         k.stopEvent();
+         a=w;   	 
+   		a--;
+   		h = u.substring(0, a);		 
+   		k.stopEvent();
       }
       if (e.maxLength + 1 && a >= e.maxLength) {
          return false;
